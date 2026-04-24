@@ -1,16 +1,56 @@
-# React + Vite
+# 🧠 Notas de estudio del proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📁 Estructura y organización
+- Estudiar cómo se reorganizaron los archivos entre frontend y backend.
+- Analizar la separación de responsabilidades entre cliente (React) y servidor (Express).
+- Revisar cómo afecta la ubicación de los archivos a la ejecución del proyecto.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ⚙️ Backend (servidor)
+- Revisar las modificaciones realizadas en el servidor.
+- Entender cómo funciona la configuración de rutas en `server.js`.
+- Analizar errores relacionados con el uso incorrecto de `JSON` en las respuestas.
+- Estudiar el manejo de solicitudes y respuestas HTTP.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🎨 Frontend (React)
+- Revisar los cambios realizados en el frontend.
+- Estudiar cómo se consumen datos desde el backend mediante `fetch` o funciones auxiliares.
+- Analizar el flujo de datos entre componentes.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🔗 Ejecución del proyecto
+- Identificar qué comandos se deben ejecutar en cada lado para que el sistema funcione correctamente:
+  - Frontend (Vite)
+  - Backend (Express)
+- Entender por qué ambos procesos deben estar activos en desarrollo.
+
+---
+
+## 📦 Importación y exportación (React)
+- Estudiar cómo funcionan los `import` y `export` en React.
+- Diferenciar entre exportaciones por defecto y nombradas.
+- Analizar cómo se comunican los componentes entre sí mediante props.
+
+---
+
+## 🌐 Peticiones y permisos
+- Analizar el flujo de peticiones entre frontend y backend.
+- Revisar configuración de CORS y permisos de acceso.
+- Entender cómo se manejan los endpoints de la API.
+
+---
+
+## 📚 Dependencias
+- Estudiar las dependencias utilizadas en el proyecto.
+- Entender por qué cada librería es necesaria (Express, Vite, etc.).
+- Revisar instalación y gestión de `node_modules`.
+
+---
+
+## 🧩 Debugging y errores
+- Reestudiar `server.js` debido a errores relacionados con respuestas en formato JSON.
+- Analizar errores comunes en la comunicación frontend-backend.
