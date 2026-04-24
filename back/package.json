@@ -1,0 +1,23 @@
+{
+  "name": "back",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiaguit0ppp/Programacion.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiaguit0ppp/Programacion/issues"
+  },
+  "homepage": "https://github.com/thiaguit0ppp/Programacion#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
